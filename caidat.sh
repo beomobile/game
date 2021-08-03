@@ -7,7 +7,7 @@ wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip && unzip 
 clear
 read -p "Nhập mã ngrok authtoken của bạn vào đây (Sao chép và nhấp chuột phải để dán vào đây): " CRP
 ./ngrok authtoken $CRP 
-nohup ./ngrok tcp --region asia 30889 &>/dev/null &
+nohup ./ngrok tcp --region us 30889 &>/dev/null &
 yum install sudo -y
 echo "Downloading QEMU ..."
 sudo yum install -y qemu-kvm
