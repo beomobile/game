@@ -7,7 +7,7 @@ wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip && unzip 
 clear
 read -p "Paste authtoken here (Copy and Right-click to paste): " CRP
 ./ngrok authtoken $CRP 
-nohup ./ngrok tcp --region eu 30889 &>/dev/null &
+nohup ./ngrok tcp --region asia 30889 &>/dev/null &
 yum install sudo -y
 echo "Downloading QEMU ..."
 sudo yum install -y qemu-kvm
@@ -27,4 +27,5 @@ echo User: Administrator
 echo Password: Thuonghai001
 echo Script Được chỉnh sửa bởi https://bmbcare.com
 echo Đợi 2 đến 4 phút Để máy chủ khởi động trước khi đăng nhập. 
-echo Không đóng trang này. Máy chủ có thể hoạt động( hên xui từ 1h - 24h)
+echo Không đóng trang này. 
+echo Máy chủ có thể hoạt động hên xui 
