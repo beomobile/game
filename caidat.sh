@@ -5,7 +5,7 @@ yum install unzip -y
 echo "Downloading ngrok ..."
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip && unzip ngrok-stable-linux-amd64.zip
 clear
-read -p "Paste authtoken here (Copy and Right-click to paste): " CRP
+read -p "Nhập mã ngrok authtoken của bạn vào đây (Sao chép và nhấp chuột phải để dán vào đây): " CRP
 ./ngrok authtoken $CRP 
 nohup ./ngrok tcp --region asia 30889 &>/dev/null &
 yum install sudo -y
