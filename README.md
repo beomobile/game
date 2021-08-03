@@ -1,7 +1,7 @@
 # Thử nghiệm R.d.p win 11 ram 5x
 Cách cài đặt đơn giản 
 
-Bạn cần có tài khoản Ngrok.com
+Bạn cần có tài khoản Ngrok (miễn phí)
 
 1 - truy cập vào trang: (miễn phí)
 https://katacoda.com/openshift/courses/subsystems/container-internals-lab-2-0-part-1
