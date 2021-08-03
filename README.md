@@ -1,11 +1,11 @@
 # game
 Cách cài đặt đơn giản 
 Bạn cần có tài khoản Ngrok.com
-truy cập vào trang: (miễn phí)
+1 - truy cập vào trang: (miễn phí)
 https://katacoda.com/openshift/courses/subsystems/container-internals-lab-2-0-part-1
-Click on "Start Scenario"
-Chờ setup xong rồi sử dụng các lệnh sau:
-Bạn sử dụng các lệnh sau để tải và biên dịch
+2 - Click on "Start Scenario"
+3 - Chờ setup xong rồi sử dụng các lệnh sau:
+4 - Bạn sử dụng các lệnh sau để tải và biên dịch
 ```
 wget https://raw.githubusercontent.com/beomobile/game/main/caidat.sh
 ```
