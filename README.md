@@ -1,4 +1,4 @@
-# Thử nghiệm R.d.p wim 11 ram 5x
+# Thử nghiệm R.d.p win 11 ram 5x
 Cách cài đặt đơn giản 
 
 Bạn cần có tài khoản Ngrok.com
