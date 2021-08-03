@@ -23,8 +23,8 @@ nohup sudo /usr/libexec/qemu-kvm -nographic -net nic -net user,hostfwd=tcp::3088
 clear
 echo Máy chủ của bạn có địa chỉ Ip: 
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
-echo User: Administrator
-echo Password: Thuonghai001
+echo Đăng nhập: Administrator
+echo Mật khẩu: Thuonghai001
 echo Script Được chỉnh sửa bởi https://bmbcare.com
 echo Đợi 2 đến 4 phút Để máy chủ khởi động trước khi đăng nhập. 
 echo Không đóng trang này. 
